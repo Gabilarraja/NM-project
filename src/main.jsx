@@ -5,6 +5,7 @@ import App from './App.jsx'
 import './styles.css';
 import { BrowserRouter } from 'react-router-dom';
 import MainPage from './home.jsx'
+import LoginPage from './LoginPage.jsx';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
